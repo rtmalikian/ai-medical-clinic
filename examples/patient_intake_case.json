@@ -1,0 +1,6 @@
+{
+  "source": "portal",
+  "patient_ref": "Patient/example",
+  "request_text": "I need a routine follow-up appointment next week in the afternoon.",
+  "use_ai": false
+}
