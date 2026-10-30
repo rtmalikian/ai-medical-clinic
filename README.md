@@ -117,6 +117,18 @@ Research-backed integration ladder:
 
 See `docs/ehr-fhir-implementation.md`.
 
+## open.epic MCP documentation lookup
+
+This project also documents an optional integration with Epic's
+**open.epic MCP server** (`https://mcp.open.epic.com`, Streamable HTTP) for
+looking up Epic API specifications and integration guidance while building
+the FHIR work above. It is **documentation only — not patient data**: Epic
+states the server is not designated for PHI, and patient data never flows
+through it. See [`EPIC_MCP.md`](EPIC_MCP.md) for what the server is/isn't,
+its live tools (`search_documents`, `get_document`), the no-PHI rule, and
+AI-client setup, and [`epic-mcp.mcp.json.example`](epic-mcp.mcp.json.example)
+for an example MCP client config.
+
 ## Research sources used
 
 - HL7 FHIR R4: https://hl7.org/fhir/R4/
